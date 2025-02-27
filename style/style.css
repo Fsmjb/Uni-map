@@ -5,5 +5,36 @@
 body{
     margin: 0px;
     padding: 0px;
-    min-height: 0px;
+    min-height: 100px;
 }
+
+
+/* floor color  */
+
+.first {
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.second{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.third{
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+/* style of .ids-block */
+.ids-block{
+ display: flex;
+ 
+}
+
+.ids-block div{
+    display: flex;
+    flex-direction: column;
+    min-width: 30px;
+}
+
